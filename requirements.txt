@@ -1,0 +1,30 @@
+# Qiskit IBM Quantum Developer Certification - Required Packages
+# Compatible with Qiskit 2.X for certification exam
+
+# Core Qiskit packages (version 2.X)
+qiskit>=2.0.0,<3.0.0
+qiskit-ibm-runtime>=0.30.0
+
+# Visualization dependencies
+matplotlib>=3.7.0
+pylatexenc>=2.10
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional but recommended for advanced visualizations
+seaborn>=0.12.0
+
+# Development and testing tools (optional)
+pytest>=7.4.0
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# IBM Quantum account management
+keyring>=24.0.0
+# QASM 3 support with latest version
+qiskit-qasm3-import>=0.5.0
+## qiskit-aer
+qiskit-aer>=0.14.0
+
